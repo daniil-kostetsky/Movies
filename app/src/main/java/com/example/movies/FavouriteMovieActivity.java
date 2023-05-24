@@ -14,11 +14,7 @@ import java.util.List;
 
 public class FavouriteMovieActivity extends AppCompatActivity {
 
-    private static final String TAG = "FavouriteMovieActivity";
-
     private FavouriteMovieViewModel favouriteMovieViewModel;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

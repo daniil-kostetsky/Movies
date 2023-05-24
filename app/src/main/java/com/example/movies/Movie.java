@@ -14,23 +14,23 @@ public class Movie implements Serializable {
 
     @PrimaryKey
     @SerializedName("id")
-    private int id;
+    private final int id;
     @SerializedName("name")
-    private String name;
+    private final String name;
     @SerializedName("description")
-    private String description;
+    private final String description;
     @SerializedName("year")
-    private int year;
+    private final int year;
     @SerializedName("movieLength")
-    private int movieLength;
+    private final int movieLength;
     @SerializedName("ageRating")
-    private int ageRating;
+    private final int ageRating;
     @Embedded
     @SerializedName("poster")
-    private Poster poster;
+    private final Poster poster;
     @Embedded
     @SerializedName("rating")
-    private Rating rating;
+    private final Rating rating;
 
 
     public Movie(int id, String name, String description, int year, int movieLength, int ageRating, Poster poster, Rating rating) {

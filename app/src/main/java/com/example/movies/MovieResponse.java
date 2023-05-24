@@ -7,7 +7,7 @@ import java.util.List;
 public class MovieResponse {
 
     @SerializedName("docs")
-    private List<Movie> movies;
+    private final List<Movie> movies;
 
     public List<Movie> getMovies() {
         return movies;

@@ -7,7 +7,7 @@ import java.io.Serializable;
 public class Poster implements Serializable {
 
     @SerializedName("url")
-    private String posterUrl;
+    private final String posterUrl;
 
     public Poster(String posterUrl) {
         this.posterUrl = posterUrl;

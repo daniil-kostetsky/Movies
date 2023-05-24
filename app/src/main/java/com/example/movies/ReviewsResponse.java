@@ -7,7 +7,7 @@ import java.util.List;
 public class ReviewsResponse {
 
     @SerializedName("docs")
-    private List<Review> reviews;
+    private final List<Review> reviews;
 
     public List<Review> getReviews() {
         return reviews;
