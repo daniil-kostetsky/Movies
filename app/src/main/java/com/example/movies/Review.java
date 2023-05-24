@@ -5,11 +5,11 @@ import com.google.gson.annotations.SerializedName;
 public class Review {
 
     @SerializedName("type")
-    private String type;
+    private final String type;
     @SerializedName("review")
-    private String review;
+    private final String review;
     @SerializedName("author")
-    private String author;
+    private final String author;
 
     public Review(String type, String review, String author) {
         this.type = type;

@@ -10,7 +10,6 @@ import java.util.List;
 
 public class FavouriteMovieViewModel extends AndroidViewModel {
 
-    private static final String TAG = "FavouriteMovieViewModel";
     private final MovieDao movieDao;
 
     public FavouriteMovieViewModel(@NonNull Application application) {

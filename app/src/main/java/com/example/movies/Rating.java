@@ -8,7 +8,7 @@ import java.util.Locale;
 public class Rating implements Serializable {
 
     @SerializedName("kp")
-    private String kpRating;
+    private final String kpRating;
 
     public Rating(String kpRating) {
         this.kpRating = kpRating;

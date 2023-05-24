@@ -5,9 +5,9 @@ import com.google.gson.annotations.SerializedName;
 public class Trailer {
 
     @SerializedName("url")
-    private String trailerUrl;
+    private final String trailerUrl;
     @SerializedName("name")
-    private String trailerName;
+    private final String trailerName;
 
     public Trailer(String trailerUrl, String trailerName) {
         this.trailerUrl = trailerUrl;

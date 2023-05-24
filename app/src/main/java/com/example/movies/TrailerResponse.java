@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName;
 public class TrailerResponse {
 
     @SerializedName("videos")
-    private TrailersList trailersList;
+    private final TrailersList trailersList;
 
     @Override
     public String toString() {
